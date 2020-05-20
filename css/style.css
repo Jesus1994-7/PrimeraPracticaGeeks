@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(108, 180, 180);
+    text-align: justify;
+    font-family: 'Oswald',sans-serif;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container-navegador {
+
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+
+}
+
+.container-logo img {
+    height: 90px;
+    width: 100px;
+}
+
+.container-menu {
+    
+}
+.container-menu ul {
+    padding: 25px;
+    display: flex;
+    
+    
+}
+.container-menu ul li {
+    padding: 20px;
+    
+    
+}
+
+.container-menu ul li a:hover {
+    font-size: 1.4em;
+    border-bottom:1px solid olive;
+    color: aqua;
+}
+
+.container {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container img {
+    width: 160px;
+    height: 845px;
+    
+}
+
+.barra-lateral-izq {
+    
+    width: 10%;
+    height: 90%;
+    
+}
+.contenido-principal {
+    
+    width: 70%;
+    height: 90%;
+}
+
+.barra-lateral-drcha {
+    
+    width: 10%;
+    height: 90%;
+    
+}
+
+.contenido-principal h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: dimgrey
+}
+.contenido-principal h2::first-letter {
+    color: red;
+    font-size: 1.4em;
+}
+.contenido-principal p {
+    margin-bottom: 8px;
+    display: block;
+}
+
+.contenido-principal p::first-line {
+    word-spacing: 2em;
+}
